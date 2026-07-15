@@ -7,6 +7,7 @@ using SimpleShop.Repo.Data;
 using SimpleShop.Repo.Repositories;
 using SimpleShop.Service.Services;
 
+Environment.SetEnvironmentVariable("DOTNET_USE_POLLING_FILE_WATCHER", "true");
 var builder = WebApplication.CreateBuilder(args);
 
 // ahhi
